@@ -1,0 +1,6 @@
+https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv 
+
+service.update(enable_app_insights = True)
+
+https://swagger.io/
+
