@@ -1,0 +1,69 @@
+2023-04-29 08:24:10.909 - INFO - 5885 - azureml.automl.core.dataset_utilities._save_datasets_to_json:255 - JSON serialization of input of type <class 'NoneType'> is un-supported.
+2023-04-29 08:24:10.923 - INFO - 5885 - azureml.automl.core.dataset_utilities._save_datasets_to_json:255 - JSON serialization of input of type <class 'NoneType'> is un-supported.
+2023-04-29 08:24:10.932 - INFO - 5885 - azureml.train.automl._experiment_drivers.driver_utilities.validate_input:124 - Start data validation.
+2023-04-29 08:24:11.023 - INFO - 5885 - azureml.train.automl._experiment_drivers.driver_utilities.validate_input:137 - Validation service found the data has no errors.
+2023-04-29 08:51:14.990 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer.__init__:190 - Feature sweeping enabled: False
+2023-04-29 08:51:15.007 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer.__init__:191 - Feature sweeping timeout: 86400
+2023-04-29 08:53:50.803 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:550 - Starting to apply transforms. Total ram: 14666973184 bytes
+2023-04-29 08:53:50.827 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3161337856 bytes
+2023-04-29 08:53:50.832 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-04-29 08:53:50.844 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (32950, 1)
+2023-04-29 08:53:50.849 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3161337856 bytes
+2023-04-29 08:53:50.859 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-04-29 08:53:50.875 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (32950, 1)
+2023-04-29 08:53:50.880 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3161337856 bytes
+2023-04-29 08:53:50.884 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-04-29 08:53:50.890 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (32950, 1)
+2023-04-29 08:53:50.896 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3161337856 bytes
+2023-04-29 08:53:50.901 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-04-29 08:53:50.911 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (32950, 1)
+2023-04-29 08:53:50.916 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3161337856 bytes
+2023-04-29 08:53:50.921 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-04-29 08:53:50.929 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (32950, 1)
+2023-04-29 08:53:50.936 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3161337856 bytes
+2023-04-29 08:53:50.940 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-04-29 08:53:50.948 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (32950, 1)
+2023-04-29 08:53:50.948 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3161337856 bytes
+2023-04-29 08:53:50.948 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - SimpleImputer: Applying transform.
+2023-04-29 08:53:50.951 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - SimpleImputer: Finished applying transform. Shape (32950, 1)
+2023-04-29 08:53:50.951 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3161079808 bytes
+2023-04-29 08:53:50.951 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - StringCastTransformer,CountVectorizer: Applying transform.
+2023-04-29 08:53:51.082 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (32950, 12)
+2023-04-29 08:53:51.083 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3160563712 bytes
+2023-04-29 08:53:51.084 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - StringCastTransformer,CountVectorizer: Applying transform.
+2023-04-29 08:53:51.194 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (32950, 4)
+2023-04-29 08:53:51.194 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3160563712 bytes
+2023-04-29 08:53:51.195 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - StringCastTransformer,CountVectorizer: Applying transform.
+2023-04-29 08:53:51.298 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (32950, 8)
+2023-04-29 08:53:51.299 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3160563712 bytes
+2023-04-29 08:53:51.299 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - StringCastTransformer,CountVectorizer: Applying transform.
+2023-04-29 08:53:51.396 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (32950, 3)
+2023-04-29 08:53:51.397 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3160563712 bytes
+2023-04-29 08:53:51.397 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - StringCastTransformer,CountVectorizer: Applying transform.
+2023-04-29 08:53:51.503 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (32950, 3)
+2023-04-29 08:53:51.504 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3160047616 bytes
+2023-04-29 08:53:51.504 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - StringCastTransformer,CountVectorizer: Applying transform.
+2023-04-29 08:53:51.611 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (32950, 3)
+2023-04-29 08:53:51.611 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3160047616 bytes
+2023-04-29 08:53:51.612 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Applying transform.
+2023-04-29 08:53:51.636 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Finished applying transform. Shape (32950, 1)
+2023-04-29 08:53:51.636 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3160047616 bytes
+2023-04-29 08:53:51.637 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - StringCastTransformer,CountVectorizer: Applying transform.
+2023-04-29 08:53:51.744 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (32950, 10)
+2023-04-29 08:53:51.744 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3159531520 bytes
+2023-04-29 08:53:51.745 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - StringCastTransformer,CountVectorizer: Applying transform.
+2023-04-29 08:53:51.855 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (32950, 5)
+2023-04-29 08:53:51.855 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3159531520 bytes
+2023-04-29 08:53:51.856 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - StringCastTransformer,CountVectorizer: Applying transform.
+2023-04-29 08:53:51.969 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (32950, 39)
+2023-04-29 08:53:51.969 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3157467136 bytes
+2023-04-29 08:53:51.970 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - StringCastTransformer,CountVectorizer: Applying transform.
+2023-04-29 08:53:52.089 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (32950, 26)
+2023-04-29 08:53:52.090 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3157467136 bytes
+2023-04-29 08:53:52.090 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - StringCastTransformer,CountVectorizer: Applying transform.
+2023-04-29 08:53:52.209 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (32950, 8)
+2023-04-29 08:53:52.209 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:560 - Transform memory estimate: 0 bytes, Current available memory: 3157209088 bytes
+2023-04-29 08:53:52.209 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:572 - StringCastTransformer,CountVectorizer: Applying transform.
+2023-04-29 08:53:52.304 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:584 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (32950, 3)
+2023-04-29 08:53:52.307 - INFO - 5885 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:595 - Finished applying transforms
+2023-04-29 08:53:52.315 - INFO - 5885 - azureml.automl.runtime.shared.memory_utilities._is_low_memory:205 - Total ram: 14666973184 bytes, Current Available memory: 3157209088 bytes. Low memory threshold: 0.5
