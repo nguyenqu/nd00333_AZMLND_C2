@@ -6,7 +6,7 @@ it using the Swagger UI using the REST API endpoint and the key created for the 
 2. The second part of the project follows the same steps, but this time Azure Python SDK is used to create, train, and publish a pipeline with Jupyter Notebook. 
 The whole procedure is explained in this README file and the result is demonstrated in the screencast video.<br>
 
-For both parts of the project, I use the dataset available here, which contains [marketing data](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) about people. 
+For both parts of the project, I use the dataset available here, which contains marketing data about people. 
 The data refer to direct marketing campaigns by a Portuguese banking institution. 
 The classification objective is to predict whether the customer will subscribe to a bank term deposit. 
 The result of the prediction appears in column **_y_** and it's either **_yes_** or **_no_**.
@@ -22,7 +22,7 @@ The figure below shows steps that will be implemented in this project:
 
 ### 2. Automated ML Experiment
 
-- We create the new Automated ML Run Experiment and then upload the bank marketing dataset. <br>
+- We create the new Automated ML Run Experiment and then upload the [bank marketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv). <br>
 - We run the experiment by configuring a new compute cluster, using classification and making sure best model explanation is enabled.
 
 ### 3. Deploy the Best Model
@@ -59,16 +59,37 @@ I am using the provided lab Udacity to complete this project.
 So I skipped this step because I don't have permission to create a security principal.
 
 ### Step 2: Automated ML Experiment
+#### Registered Dataset (Bild) 
+#### AutoML Experiment Running (Bild)
+#### AutoML Experiment Completed (Bild)
+#### Best Model (Bilder)
 
 ### Step 3: Deploy the Best Model
+#### Deploying the Best Model (Bild)
+#### Deployed Best Model (Bild)
+#### Endpoint (Bild)
 
 ### Step 4: Enable Logging
+#### Application Insights Enabled (Bild)
+#### Logs from logs.py script (Bild)
 
 ### Step 5: Swagger Documentation
+#### Default Swagger page
+#### Swagger Model Documentation (Bilder)
+#### API Methods of the Model
 
 ### Step 6: Consume Model Endpoints
+#### Endpoint.py output (Consuming Model Endpoints) (Bild)
 
 ### Step 7: Create and Publish a Pipeline
+#### Created Pipeline
+#### Pipeline Overview 
+#### Pipeline Endpoint (Bild)
+#### Published Pipeline Endpoint(Bild)
+#### Running Pipeline (Bild)
+#### Status Active (Bild)
+#### Run Widget - RunDetails Widget (Bild)
+#### Run Completed (Bild)
 
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
