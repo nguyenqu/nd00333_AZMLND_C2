@@ -16,19 +16,22 @@ The figure below shows steps that will be implemented in this project:
 
 ![Architecture](screenshots/Architecture.PNG)
 
+## Key Steps
+
 ### 1. Authentication
 
 - This is the important step to ensure secure and authentic access. Authentication is required to create the service principal account and associate it with a specific workspace.
+- I am using the provided lab Udacity to complete this project. 
+So I skipped this step because I don't have permission to create a security principal.
 
 ### 2. Automated ML Experiment
 
 - We create the new Automated ML Run Experiment and then upload the [bank marketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv). <br>
 - We run the experiment by configuring a new compute cluster, using classification and making sure best model explanation is enabled.
 
+#### Registered Dataset
 ![](screenshots/1_0_Bankmarketing_Dataset_available.PNG)
 ![](screenshots/1_1_Bankmarketing_Dataset.PNG)
-![](screenshots/2_0_Experiment_completed.PNG)
-![](screenshots/2_1_Best_model.PNG)
 ![](screenshots/2_2_Dataset.PNG)
 ![](screenshots/2_3_Dataset.PNG)
 ![](screenshots/2_4_Dataset.PNG)
@@ -51,6 +54,13 @@ The figure below shows steps that will be implemented in this project:
 ![](screenshots/2_20_Dataset.PNG)
 ![](screenshots/2_21_Dataset.PNG)
 ![](screenshots/2_22_Dataset.PNG)
+
+#### AutoML Experiment Completed
+![](screenshots/2_0_Experiment_completed.PNG)
+
+#### Best Model
+![](screenshots/2_1_Best_model.PNG)
+
 
 ### 3. Deploy the Best Model
 
@@ -75,9 +85,12 @@ The figure below shows steps that will be implemented in this project:
 - This helps us create log output using the Python SDK. <br>
 - It plays a crucial role in debugging problems in production environments.
 
-![](screenshots/4_Application_Insights.PNG)
+#### Logs from logs.py script
 ![](screenshots/5_0_Logs.PNG)
 ![](screenshots/5_1_Logs.PNG)
+
+#### Application Insights Enabled
+![](screenshots/4_Application_Insights.PNG)
 
 ### 5. Swagger Documentation
 
@@ -86,7 +99,11 @@ The figure below shows steps that will be implemented in this project:
 
 ![](screenshots/6_0_Swagger.PNG)
 ![](screenshots/6_1_Swagger.PNG)
+
+#### Default Swagger page
 ![](screenshots/6_2_Swagger.PNG)
+
+#### Swagger Model Documentation
 ![](screenshots/6_3_Serve.PNG)
 ![](screenshots/6_4_Serve.PNG)
 ![](screenshots/6_5_Serve.PNG)
@@ -98,9 +115,11 @@ The figure below shows steps that will be implemented in this project:
 - We need to use the provided service to get the data using an **HTTP request**. <br>
 - It helps us validate data by determining if something has a problem or is wrong.
 
+#### Endpoint.py output (Consuming Model Endpoints)
 ![](screenshots/7_0_Endpoints.PNG)
 ![](screenshots/7_1_Endpoints.PNG)
 
+#### Benchmark output
 ![](screenshots/8_0_Benchmark.PNG)
 ![](screenshots/8_1_Benchmark.PNG)
 
@@ -110,57 +129,28 @@ The figure below shows steps that will be implemented in this project:
 - This is done by **creating** a pipeline and then **publishing** it. <br>
 - It is synonymous to Automation as the pipeline create ways for other services to interact with it using **HTTP endpoint**.
 
+#### Created Pipeline and Pipeline Overview 
 ![](screenshots/9_0_Pipeline.PNG)
+
+#### Pipeline Endpoint
 ![](screenshots/9_1_Pipeline_endpoint.PNG)
+
+#### Bankmarketing Dataset with AutoML
 ![](screenshots/10_Bankmarketing_Dataset_AutoML.PNG)
-![](screenshots/11_REST_Endpoint_Active.PNG)
+
+#### Published Pipeline Overview
 ![](screenshots/12_Published_Pipeline_Overview.PNG)
+
+#### Status Active
+![](screenshots/11_REST_Endpoint_Active.PNG)
+
+#### Running Pipeline
 ![](screenshots/13_Schedule_Run.PNG)
+
+#### Run Widget - RunDetails Widget (Bild)
 ![](screenshots/14_0_Use_RunDetails_Widget.PNG)
 ![](screenshots/14_1_Use_RunDetails_Widget.PNG)
 ![](screenshots/14_2_Use_RunDetails_Widget.PNG)
-
-## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
-### Step 1: Authentication
-I am using the provided lab Udacity to complete this project. 
-So I skipped this step because I don't have permission to create a security principal.
-
-### Step 2: Automated ML Experiment
-#### Registered Dataset (Bild) 
-#### AutoML Experiment Running (Bild)
-#### AutoML Experiment Completed (Bild)
-#### Best Model (Bilder)
-
-### Step 3: Deploy the Best Model
-#### Deploying the Best Model (Bild)
-#### Deployed Best Model (Bild)
-#### Endpoint (Bild)
-
-### Step 4: Enable Logging
-#### Application Insights Enabled (Bild)
-#### Logs from logs.py script (Bild)
-
-### Step 5: Swagger Documentation
-#### Default Swagger page
-#### Swagger Model Documentation (Bilder)
-#### API Methods of the Model
-
-### Step 6: Consume Model Endpoints
-#### Endpoint.py output (Consuming Model Endpoints) (Bild)
-
-### Step 7: Create and Publish a Pipeline
-#### Created Pipeline
-#### Pipeline Overview 
-#### Pipeline Endpoint (Bild)
-#### Published Pipeline Endpoint(Bild)
-#### Running Pipeline (Bild)
-#### Status Active (Bild)
-#### Run Widget - RunDetails Widget (Bild)
-#### Run Completed (Bild)
-
-
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
