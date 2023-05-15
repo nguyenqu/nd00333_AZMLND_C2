@@ -97,7 +97,7 @@ So I skipped this step because I don't have permission to create a security prin
 - Swagger helps us build, document, and consume RESTful web services. <br>
 - It also explains what kind of requests the API can handle like **POST** and **GET**.
 
-I run [swagger.sh](swagger/swagger.sh) after downloading the swagger.json file in same folder. Then I will run the [serve.py](swagger/serve.py). <br>
+I run [swagger.sh](swagger/swagger.sh) after downloading the [swagger.json](swagger/swagger.json) file in same folder. Then I will run the [serve.py](swagger/serve.py). <br>
 ***swagger.sh*** will download the latest Swagger container, and it will run it on port ***9000***. <br>
 ***serve.py*** will start a Python server on port ***8000***.
 
