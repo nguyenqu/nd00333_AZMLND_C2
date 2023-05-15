@@ -97,6 +97,10 @@ So I skipped this step because I don't have permission to create a security prin
 - Swagger helps us build, document, and consume RESTful web services. <br>
 - It also explains what kind of requests the API can handle like **POST** and **GET**.
 
+I run ***swagger.sh*** after downloading the swagger.json file in same folder. Then I will run the ***serve.py***. <br>
+***swagger.sh*** will download the latest Swagger container, and it will run it on port ***9000***. <br>
+***serve.py*** will start a Python server on port ***8000***.
+
 ![](screenshots/6_0_Swagger.PNG)
 ![](screenshots/6_1_Swagger.PNG)
 
@@ -153,7 +157,9 @@ So I skipped this step because I don't have permission to create a security prin
 ![](screenshots/14_2_Use_RunDetails_Widget.PNG)
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+[Screencast for project Operationalizing Machine Learning](https://youtu.be/EXNp3GZEvEk)
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+- When creating the automated ML run, I would choose the validation type instead of using auto.
+- When creating the compute cluster, I would experiment with virtual machine sizes so I can try to find a cheaper option without impacting the production model and endpoint consumption.
+- We could use the batch inference pipeline to make predictions using concurrency. This increases productivity and optimizes costs.
