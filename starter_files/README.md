@@ -14,7 +14,7 @@ The result of the prediction appears in column **_y_** and it's either **_yes_**
 ## Architectural Diagram
 The figure below shows steps that will be implemented in this project:
 
-![Diagramm](screenshots/Architecture.PNG)
+![Architecture](screenshots/Architecture.PNG)
 
 ### 1. Authentication
 
@@ -25,10 +25,49 @@ The figure below shows steps that will be implemented in this project:
 - We create the new Automated ML Run Experiment and then upload the [bank marketing dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv). <br>
 - We run the experiment by configuring a new compute cluster, using classification and making sure best model explanation is enabled.
 
+![](screenshots/1_0_Bankmarketing_Dataset_available.PNG)
+![](screenshots/1_1_Bankmarketing_Dataset.PNG)
+![](screenshots/2_0_Experiment_completed.PNG)
+![](screenshots/2_1_Best_model.PNG)
+![](screenshots/2_2_Dataset.PNG)
+![](screenshots/2_3_Dataset.PNG)
+![](screenshots/2_4_Dataset.PNG)
+![](screenshots/2_5_Dataset.PNG)
+![](screenshots/2_6_Dataset.PNG)
+![](screenshots/2_7_Dataset.PNG)
+![](screenshots/2_8_Dataset.PNG)
+![](screenshots/2_9_Dataset.PNG)
+![](screenshots/2_10_Dataset.PNG)
+![](screenshots/2_10a_Dataset.PNG)
+![](screenshots/2_11_Dataset.PNG)
+![](screenshots/2_12_Dataset.PNG)
+![](screenshots/2_13_Dataset.PNG)
+![](screenshots/2_14_Dataset.PNG)
+![](screenshots/2_15_Dataset.PNG)
+![](screenshots/2_16_Dataset.PNG)
+![](screenshots/2_17_Dataset.PNG)
+![](screenshots/2_18_Dataset.PNG)
+![](screenshots/2_19_Dataset.PNG)
+![](screenshots/2_20_Dataset.PNG)
+![](screenshots/2_21_Dataset.PNG)
+![](screenshots/2_22_Dataset.PNG)
+
 ### 3. Deploy the Best Model
 
 - After completing the AutoML run, we get our best model. <br>
 - Then we will deploy this model using **Azure Container Instance** (**ACI**) and enable **Authentication** to prevent unauthorized access.
+
+![](screenshots/3_0_Deploy_Model.PNG)
+![](screenshots/3_1_Top4_Feature.PNG)
+![](screenshots/3_2_Top4_Feature.PNG)
+![](screenshots/3_3_Metrics.PNG)
+![](screenshots/3_4_Metrics.PNG)
+![](screenshots/3_5_Accuracy_Precision.PNG)
+![](screenshots/3_6_Accuracy_ROC.PNG)
+![](screenshots/3_7_Accuracy_Calibration.PNG)
+![](screenshots/3_8_Accuracy_Lift.PNG)
+![](screenshots/3_9_Accuracy_Cumulativ_Gains.PNG)
+![](screenshots/3_10_Confusion_matrix.PNG)
 
 ### 4. Enable Logging
 
@@ -36,21 +75,50 @@ The figure below shows steps that will be implemented in this project:
 - This helps us create log output using the Python SDK. <br>
 - It plays a crucial role in debugging problems in production environments.
 
+![](screenshots/4_Application_Insights.PNG)
+![](screenshots/5_0_Logs.PNG)
+![](screenshots/5_1_Logs.PNG)
+
 ### 5. Swagger Documentation
 
 - Swagger helps us build, document, and consume RESTful web services. <br>
 - It also explains what kind of requests the API can handle like **POST** and **GET**.
+
+![](screenshots/6_0_Swagger.PNG)
+![](screenshots/6_1_Swagger.PNG)
+![](screenshots/6_2_Swagger.PNG)
+![](screenshots/6_3_Serve.PNG)
+![](screenshots/6_4_Serve.PNG)
+![](screenshots/6_5_Serve.PNG)
+![](screenshots/6_6_Serve.PNG)
+![](screenshots/6_7_Serve.PNG)
 
 ### 6. Consume Model Endpoints
 
 - We need to use the provided service to get the data using an **HTTP request**. <br>
 - It helps us validate data by determining if something has a problem or is wrong.
 
+![](screenshots/7_0_Endpoints.PNG)
+![](screenshots/7_1_Endpoints.PNG)
+
+![](screenshots/8_0_Benchmark.PNG)
+![](screenshots/8_1_Benchmark.PNG)
+
 ### 7. Create and Publish a Pipeline
 
 - The last and the most vital step is to make the model publically available. <br>
 - This is done by **creating** a pipeline and then **publishing** it. <br>
 - It is synonymous to Automation as the pipeline create ways for other services to interact with it using **HTTP endpoint**.
+
+![](screenshots/9_0_Pipeline.PNG)
+![](screenshots/9_1_Pipeline_endpoint.PNG)
+![](screenshots/10_Bankmarketing_Dataset_AutoML.PNG)
+![](screenshots/11_REST_Endpoint_Active.PNG)
+![](screenshots/12_Published_Pipeline_Overview.PNG)
+![](screenshots/13_Schedule_Run.PNG)
+![](screenshots/14_0_Use_RunDetails_Widget.PNG)
+![](screenshots/14_1_Use_RunDetails_Widget.PNG)
+![](screenshots/14_2_Use_RunDetails_Widget.PNG)
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
