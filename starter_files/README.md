@@ -3,7 +3,7 @@
 This project consists of two parts:<br>
 1. The first part consists of creating a production machine learning model using AutoML in Azure Machine Learning Studio, and then deploying the best model and consuming 
 it using the Swagger UI using the REST API endpoint and the key created for the deployed model.<br>
-2. The second part of the project follows the same steps, but this time Azure Python SDK is used to create, train, and publish a pipeline with Jupyter Notebook. 
+2. The second part of the project follows the same steps, but this time Azure Python SDK is used to create, train, and publish a pipeline with [Jupyter Notebook](aml-pipelines-with-automated-machine-learning-step.ipynb). 
 The whole procedure is explained in this README file and the result is demonstrated in the screencast video.<br>
 
 For both parts of the project, I use the dataset available here, which contains marketing data about people. 
@@ -85,7 +85,7 @@ So I skipped this step because I don't have permission to create a security prin
 - This helps us create log output using the Python SDK. <br>
 - It plays a crucial role in debugging problems in production environments.
 
-#### Logs from logs.py script
+#### Logs from [logs.py script](logs.py)
 ![](screenshots/5_0_Logs.PNG)
 ![](screenshots/5_1_Logs.PNG)
 
@@ -97,7 +97,7 @@ So I skipped this step because I don't have permission to create a security prin
 - Swagger helps us build, document, and consume RESTful web services. <br>
 - It also explains what kind of requests the API can handle like **POST** and **GET**.
 
-I run ***swagger.sh*** after downloading the swagger.json file in same folder. Then I will run the ***serve.py***. <br>
+I run [swagger.sh](swagger/swagger.sh) after downloading the swagger.json file in same folder. Then I will run the [serve.py](swagger/serve.py). <br>
 ***swagger.sh*** will download the latest Swagger container, and it will run it on port ***9000***. <br>
 ***serve.py*** will start a Python server on port ***8000***.
 
@@ -119,11 +119,11 @@ I run ***swagger.sh*** after downloading the swagger.json file in same folder. T
 - We need to use the provided service to get the data using an **HTTP request**. <br>
 - It helps us validate data by determining if something has a problem or is wrong.
 
-#### Endpoint.py output (Consuming Model Endpoints)
+#### [endpoint.py](endpoint.py) output (Consuming Model Endpoints)
 ![](screenshots/7_0_Endpoints.PNG)
 ![](screenshots/7_1_Endpoints.PNG)
 
-#### Benchmark output
+#### [Benchmark](benchmark.sh) output
 ![](screenshots/8_0_Benchmark.PNG)
 ![](screenshots/8_1_Benchmark.PNG)
 
